@@ -1,0 +1,173 @@
+body {
+	background-color: var(--gpsalmostblack);
+}
+.mainHeader {
+	border-bottom: none;
+}
+.footerdiv {
+	color: var(--gpsmarigolddark);
+}
+
+@media only screen and (max-width: 600px) {
+body {
+	background-color: var(--gpsalmostblack);
+}
+.mainNav {
+	width: 60%;
+	background-color: var(--gpsalmostblacktransp);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav li {
+	width: 90%;
+	background-color: var(--gpsalmostblacktransp);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+	text-align: center;
+}
+.mainNav li a:link {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+}
+.mainNav li a:visited {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigolddark);
+}
+.mainNav li a:active {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+.footerdiv {
+	font-size: small;
+}
+}
+
+/* tablets and large phones  */
+@media (min-width: 600px) {
+body {
+	background-color: var(--gpsalmostblack);
+}
+.mainNav {
+	position: relative;
+	margin-left: 0;
+	left: -8%;
+	padding-right: 50%;
+	display: inline-block;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav li {
+	width: 18%;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:link {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:visited {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+.mainNav li a:active {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+}
+
+/*  landscape mode */
+
+@media screen and (orientation:landscape) and (min-width:768px) {
+body {
+	background-color: var(--gpsalmostblack);
+}
+.mainNav {
+	position: relative;
+	margin-left: 0;
+	left: -3%;
+	padding-right: 30%;
+	display: inline-block;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav li {
+	width: 18%;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:link {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:visited {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+.mainNav li a:active {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+}
+
+/* laptops and desktops */
+
+@media screen and (min-width:992px) {
+body {
+	background-color: var(--gpsalmostblack);
+}
+.mainNav {
+	position: relative;
+	margin-left: 0;
+	left: 0;
+	padding-right: 35%;
+	display: inline-block;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav li {
+	width: 15%;
+	margin-left: 0;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:link {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigolddark);
+}
+.mainNav li a:visited {
+	background-color: var(--gpsalmostblack);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+.mainNav li a:active {
+	color: var(--gpsalmostblack);
+	background-color: var(--gpsmarigold);
+}
+}
+
+/* extra large monitors */
+
+@media screen and (min-width:1200px) {
+body {
+	background-color: var(--gpsalmostblack);
+}
+}

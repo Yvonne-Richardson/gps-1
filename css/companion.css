@@ -1,0 +1,159 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--gpsalmostblack);
+}
+.companionIntro {
+	width: 90%;
+	position: relative;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	display: inline-block;
+}
+.dbNames {
+	width: 40%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+.compPair {
+	width: 90%;
+	position: relative;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	display: inline-block;
+}
+
+
+.dbNames .imgComp img {
+	position: relative;
+	min-width: 30%;
+	max-width: 30%;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: right;
+	display: inline;
+}
+.footerdiv {
+	color: var(--gpsgreenlight);
+}
+
+/* smaller devices media query -- phones, etc */
+@media only screen and (max-width: 600px) {
+body {
+	background-color: var(--gpsgreen);
+}
+.mainNav {
+	font-size: 18px;
+}
+.dbNames {
+	width: 90%;
+}
+.dbCompP {
+	width: 90%;
+}
+.compPair {
+	width: 80%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+}
+
+/* tablets and large phones  */
+@media (min-width: 600px) {
+body {
+	background-color: var(--gpsmarigold);
+}
+.mainNav {
+	font-size: 14px;
+}
+.companionIntro {
+	width: 80%;
+	margin: 5px;
+	border: 10px solid var(--gpsgreen);
+}
+.dbNames {
+	width: 90%;
+	margin-top: 0 auto;
+	position: relative;
+	display: inline-block;
+}
+.dbCompP {
+	width: 40%;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+	display: inline-block;
+}
+.compPair {
+	width: 80%;
+	margin: 5px;
+	border: 10px solid var(--gpsgreen);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+}
+
+/*  landscape mode */
+@media screen and (orientation:landscape) and (min-width:768px) {
+body {
+	background-color: var( --gpsblue);
+}
+.mainNav {
+	font-size: 18px;
+}
+.companionIntro {
+	width: 95%;
+	position: relative;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
+	border: none;
+	display: inline-block;
+	color: var(--gpsalmostblack);
+}
+.dbNames {
+	position: relative;
+	bottom: -1px;
+	display: inline-block;
+}
+.compPair {
+	width: 39%;
+	margin: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	display: inline-block;
+}
+.dbCompP {
+	width: 48%;
+	border: 0px;
+	padding: 0px;
+	display: inline-block;
+}
+}
+
+/* laptops and desktops */
+@media screen and (min-width:992px) {
+body {
+	background-color: var( --gpsblue);
+}
+.mainNav {
+	font-size: 24px;
+}
+}
+
+/* extra large monitors */
+@media screen and (min-width:1200px) {
+body {
+	background-color: var( --gpsblue);
+}
+}

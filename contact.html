@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Gardener's Planting System</title>
+<meta name="description" content="Gardeners Planting System">
+<meta name="keywords" content="garden,planting,planning,fruit,vegetable,flower,edible,tree,herb,annual,perennial,biennial">
+<link href="css/singlePageTemplate.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/contact.css" rel="stylesheet" type="text/css">
+
+<link href="css/boots.css" rel="stylesheet" type="text/css">
+
+
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/source-sans-pro:n2:default.js" type="text/javascript"></script>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="mainHeader"> <img src="images/gpsLogo.gif" width="200" height="135" alt="Class Logo"/>
+  <h1><b>Contact Us</b></h1>
+  <ul class="mainNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="companions.html">Companions</a></li>
+    <li><a href="lifestage.html">Life Stages</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact Us!</a></li>
+  </ul>
+</header>
+<!-- Main Container -->
+<div class="container">
+  <div class="contact"> 
+    
+    <!-- About Section -->
+    <section class="about" id="about">
+      <form action="php/contact.php" method="post" autocomplete="on">
+        <div class="row">
+          <div class="col-01">
+            <label for="firstName">First Name:&nbsp;</label>
+          </div>
+          <div class="col-02">
+            <input name="firstName" type="text" autofocus="autofocus" required="required" id="firstName" placeholder="required" size="20" maxlength="50">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-01">
+            <label for="lastName">Last Name:&nbsp;</label>
+          </div>
+          <div class="col-02">
+            <input name="lastName" type="text" id="lastName" placeholder="required" size="20" maxlength="50">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-01">
+            <label for="email">Email:&nbsp; </label>
+          </div>
+          <div class="col-02">
+            <input type="email" id="email" size="20" maxlength="50">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-01">
+            <label for="tel">Phone:&nbsp; </label>
+          </div>
+          <div class="col-02">
+            <input type="tel" id="tel">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-01">
+            <label for="state">State:</label>
+          </div>
+          <div class="col-02">
+            <select name="state" id="state">
+              <option>Choose One</option>
+              <option value="AK">Alaska</option>
+              <option value="ID">Idaho</option>
+              <option value="OR">Oregon</option>
+              <option value="WA">Washington</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-01">
+            <label for="comments">Comments:</label>
+          </div>
+          <div class="col-02">
+            <textarea name="comments" cols="60" rows="4" id="comments"></textarea>
+          </div>
+        </div>
+        <div class="row">
+		 
+          <button type="submit" id="submit" value="Submit">Submit</button>
+		  
+		  <button type="reset" id="clear" value="Clear">Clear</button>
+		 
+        </div>
+      </form>
+    </section>
+  </div>
+</div>
+<!-- Main Container Ends -->
+<footer>
+  <div class="footerdiv">
+    <div class="footerleft">&copy; 2018 Yvonne</div>
+    <div class="footermiddle"> <img src="images/facebook.gif" width="30"  alt="Facebook Logo"/> <img src="images/linkedin.gif" width="30" alt="LinkedIn Logo"/> <img src="images/twitter.gif" width="30"  alt="Twitter Logo"/></div>
+    <div class="footerright">DSGN233 </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>The Gardener's Planting System</title>
+<meta name="description" content="Gardeners Planting System">
+<meta name="keywords" content="garden,planting,planning,fruit,vegetable,flower,edible,tree,herb,annual,perennial,biennial">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header class="mainHeader"> <img src="images/gpsLogo.gif" width="200" height="135" alt="Class Logo"/>
+  <h1>The Gardener's Planting System</h1>
+  <ul class="mainNav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="companions.html">Companions</a></li>
+    <li><a href="lifestage.html">Life Stages</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact Us!</a></li>
+  </ul>
+</header>
+<main>
+  <form action="php/selectdb.php" method="post" autocomplete="on">
+    <ul class="nav2">
+      <li>
+        <ul class="homeNav">
+          <li>
+            <input type="submit"  class="dbselect" name="annuals" value="Annuals">
+          </li>
+          <li>
+            <input type="submit"  class="dbselect" name="perennials" value="Perennials">
+          </li>
+          <li>
+            <input type="submit"  class="dbselect" name="biennials" value="Biennials">
+          </li>
+        </ul>
+      </li>
+      <li class="plantType" >
+        <ul class="homeNav" >
+          <li>
+            <input type="submit" class="dbselect" name="edibles" value="Edibles">
+          </li>
+          <li>
+            <input type="submit"  class="dbselect" name="flowers" value="Flowers">
+          </li>
+          <li>
+            <input type="submit"  class="dbselect" name="trees" value="Trees">
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </form>
+  <div class="dbEntries">
+    <h3>How to use the Planting System </h3>
+    <p>The GPS tells you many things about the care and feeding of several types of plants.</p>
+    <p>This includes whether you can start a plant indoors, how many days it takes to germinate or flower, and how long before transplanting outdoors. It will also indicate the number of days between planting and harvest, and display images of each plant at various stages of growth. </p>
+    <p>You can choose one of the six buttons to sort the plants by type, and then select a plant for all of its information.</p>
+  </div>
+</main>
+<footer>
+  <div class="footerdiv">
+    <div class="footerleft">&copy; 2018 Yvonne</div>
+    <div class="footermiddle"> <img src="images/facebook.gif" width="30"  alt="Facebook Logo"/> <img src="images/linkedin.gif" width="30" alt="LinkedIn Logo"/> <img src="images/twitter.gif" width="30"  alt="Twitter Logo"/></div>
+    <div class="footerright">DSGN233 </div>
+  </div>
+</footer>
+</body>
+</html>

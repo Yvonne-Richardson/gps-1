@@ -1,0 +1,198 @@
+body {
+	color: lightgreen;
+	font-family: Arial;
+	-webkit-font-smoothing: antialiased;
+}
+.translate {
+	width: 300px;
+	height: 100px;
+	background-color: aqua;
+	border: solid medium black;
+	/*	-webkit-transform:translate(150px,100px);
+	-ms-transform:translate(150px,100px);
+	-moz-transform:translate(150px,100px);		
+	transform: translate(150px,100px);*/
+/*	transform: translate(100px,100px);
+	
+	
+	transform: rotate(30deg);
+	transform: scale(2,3);*/
+	/*	transform: translate(100px,100px) rotate(30deg) scale(2,3) skewX(15deg) skewY(20deg);*/
+	transform: translate(100px, 100px) rotate(30deg) scale(2, 3) skew(15deg, 20deg);
+}
+.matrix {
+	width: 300px;
+	height: 100px;
+	background-color: deeppink;
+	border: solid medium black;
+	transform: matrix(1.5, -.5, 2, 1.5, 100, 200);
+	z-index: -10;
+}
+.threeD {
+	width: 100px;
+	height: 100px;
+	background-color: coral;
+	border: solid medium black;
+	/*	transform: rotateX(20deg) rotateY(20deg) rotateZ(45deg);*/
+	transform: rotate3d(20, 20, 45, 20deg);
+	z-index: 1;
+	position: absolute;
+	transition: width 4s, height 3s;
+	transition-timing-function: ease;
+}
+.threeD:hover {
+	width: 300px;
+	height: 400px;
+}
+
+
+/*keyframe animation*/
+
+@keyframes colorTransition {
+ 0% {
+background-color: rebeccapurple
+}
+ 20% {
+background-color: indigo
+}
+ 40% {
+background-color: blue
+}
+ 60% {
+background-color: lightgreen
+}
+ 80% {
+background-color: yellow
+}
+ 100% {
+background-color: red
+}
+}
+.colorChange {
+	width: 200px;
+	height: 200px;
+	background-color: rebeccapurple;
+	animation-name: colorTransition;
+	animation-duration: 10s;
+	animation-delay: 1s;
+	animation-iteration-count: 3;
+	animation-direction: reverse;
+}
+.earthDemo {
+	background: #000;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+.earthDemo:before {
+	background: #000 url("space.jpg") repeat center;
+	background-repeat: repeat;
+	content: "";
+	opacity: .5;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.earth {
+	position: absolute;
+	top: calc(50% - 100px);
+	left: calc(50% - 100px);
+	z-index: 50;
+}
+.earth img {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 60;
+}
+.earth .moreInfo {
+	background-image: linear-gradient(to bottom, green, blue);
+	border-radius: 1em;
+	color: #fff;
+	opacity: 0;
+	margin: 2em;
+	padding: 2em;
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+	width: 300px;
+	z-index: 200;
+}
+.earth .moreInfo h1 {
+	margin: 0 0 1em;
+	text-align: right;
+}
+.earth .moreInfo h1, .earth .moreInfo li {
+	font-family: 'Space Mono', monospace;
+	color: lightgreen;
+	opacity: 1;
+	z-index: 300;
+}
+.moon-container {
+	position: absolute;
+	top: calc(52% - 1px);
+	left: calc(50% - 25px);
+	z-index: 20;
+}
+.moon {
+	-webkit-animation: spin 20s linear infinite;
+	animation: spin 20s linear infinite;
+	background: none;
+	width: 75px;
+	height: 75px;
+	pointer-events: none;
+	-webkit-transform-origin: 80px;
+	transform-origin: 80px;
+}
+.moon img {
+	-webkit-transform: translate(-140px, -80px);
+	transform: translate(-140px, -80px);
+	width: 75px;
+}
+.earth img, .moon img {
+	border-radius: 50%;
+	box-shadow: 0 0 12em 1em rgba(110,140,200,.6);
+}
+.earth:hover img, .earth.active img {
+	-webkit-transform: translateX(-75px) translateY(-75px) scale(0.5);
+	transform: translateX(-75px) translateY(-75px) scale(0.5);
+}
+.earth:hover ~ .moon-container, .earth.active ~ .moon-container {
+	-webkit-transform: translateX(-75px) translateY(-75px) scale(0.4);
+	transform: translateX(-75px) translateY(-75px) scale(0.4);
+}
+.earth:hover ~ .moon-container img, .earth.active ~ .moon-container img {
+	-webkit-transform: translateX(-140px) translateY(-140px);
+	transform: translateX(-140px) translateY(-140px);
+}
+.earth:hover .moreInfo, .earth.active .moreInfo {
+	opacity: 1;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.earth:hover .moreInfo h1, .earth:hover .moreInfo li, .earth.active .moreInfo h1, .earth.active .moreInfo li {
+	opacity: 1;
+}
+* {
+	transition: all 4s cubic-bezier(0, 1.5, 0.3, 1);
+}
+ @-webkit-keyframes spin {
+ to {
+ -webkit-transform: rotateZ(360deg);
+ transform: rotateZ(360deg);
+}
+}
+ @keyframes spin {
+ to {
+ -webkit-transform: rotateZ(360deg);
+ transform: rotateZ(360deg);
+}
+}

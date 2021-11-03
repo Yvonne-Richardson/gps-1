@@ -1,0 +1,687 @@
+:root {
+ --gpssunshine: rgb(246,246,246);
+ --gpsgreen: rgb(70,88,13);
+ --gpsgreentransp: rgba(70,88,13,0.3);
+ --gpsblue:	 rgb(68,93,113);
+ --gpsbluetransp:	 rgba(68,93,113,0.5);
+ --gpsgreenleaf: rgb(239,250,27);
+ --gpsgreenlight: rgb(144,151,11);
+ --gpssunshinedark:  rgb(255,238,209);
+ --gpsosunshinedark:  rgba(255,238,209,0.6);
+ --gpssunshinehighlight:  rgb(248,186,113);
+ --gpssunshinehighlightdark:  rgb(195,142,66);
+ --gpsmarigold:  rgb(252,180,0);
+ --gpsmarigolddark:  rgb(194,115,1);
+ --gpsalmostblack:  rgb(21,25,3);
+ --gpsalmostblacktransp:  rgba(21,25,3,0.6);
+ --gpstransp1: rgb(0,120,196);
+ --gpsborder: rgb(3,1,126);
+ --gpshero: rgb(253,221,11);
+ --gpsborderbottomcolor: rgb(190,35,211);
+}
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var( --gpsgreen);
+	color: var( --gpssunshine);
+	font-family: "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 16px;
+}
+.mainHeader {
+	width: 100%;
+	position: relative;
+	top: 0;
+	margin: 0;
+	border-bottom: medium ridge var(--gpsgreenlight);
+	background-image: url(../images/sunshineHeader.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: Trebuchet;
+}
+.mainHeader h1 {
+	position: absolute;
+	top: 10%;
+	left: 25%;
+	margin-top: 0em;
+	border-radius: 50px 20px 50px 30px;
+	background-color: var(--gpsosunshinedark);
+	color: var(--gpsalmostblack);
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+}
+h1 {
+	font-size: xx-large;
+}
+h2 {
+	font-style: italic;
+}
+h3 {
+	text-align: center;
+}
+.mainNav {
+	margin-bottom: 0px;
+	background-color: var(--gpsgreen);
+	color: gold;
+}
+.mainNav ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	position: static;
+	text-decoration: none;
+}
+.mainNav li {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	border-bottom: medium solid var(--gpssunshinedark);
+	background-color: var(--gpsgreen);
+	color: var(--gpsmarigold);
+	text-align: center;
+}
+.mainNav li a:hover {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	background-color: var(--gpsmarigold);
+	color: var(--gpsgreen);
+	text-align: center;
+}
+.button {
+	color: var(--gpsmarigold);
+	background-color: var(--gpsblue);
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	cursor: pointer;
+}
+.button:hover {
+	background-color: var(--gpsmarigolddark);
+	color: var(--gpsblue);
+	font-weight: bold;
+}
+.button:active {
+	background-color: var(--gpsmarigold);
+	font-style: italic;
+	font-weight: bold;
+}
+.homeNav {
+	margin-bottom: 0px;
+	background-color: var(--gpsgreen);
+	color: gold;
+}
+.homeNav ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style-type: none;
+}
+.homeNav li {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	border-style: solid;
+	border-width: 2px 10px 2px 10px;
+	border-color: var(--gpsmarigolddark);
+	border-radius: 50%;
+	background-color: var(--gpsgreentransp);
+	color: var(--gpsmarigold);
+	text-align: center;
+	list-style-type: none;
+}
+.homeNav li a:link {
+	border-color: var(--gpsmarigolddark);
+	background-color: var(--gpsgreen);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+}
+.homeNav li a:visited {
+	border-color: var(--gpsmarigold);
+	background-color: var(--gpsgreen);
+	color: var(--gpsmarigold);
+}
+.homeNav li:hover {
+	color: var(--gpsgreen);
+	background-color: var(--gpsmarigold);
+}
+.homeNav li a:hover {
+	color: var(--gpsgreen);
+	background-color: var(--gpsmarigold);
+}
+.homeNav li a:active {
+	color: var(--gpsgreen);
+	background-color: var(--gpsmarigold);
+}
+.main {
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+}
+.nav2 ul {
+	width: 95%;
+	margin: 0 auto;
+	display: inline-block;
+	list-style-type: none;
+}
+.nav2 li {
+	margin: 0 auto;
+	display: inline-block;
+	list-style-type: none;
+}
+.plantType li {
+	background-color: yellow;
+}
+.plantType li a:link {
+	background-color: yellow;
+	color: var(--gpsgreen);
+}
+.plantType li a:visited {
+	background-color: yellow;
+	color: var(--gpsblue);
+}
+.plantType li a:visited a:hover {
+	background-color: var(--gpsmarigold);
+	color: var(--gpsblue);
+}
+.plantType li:hover {
+	color: var(--gpsgreen);
+	background-color: var(--gpsmarigold);
+}
+.plantType li a:active {
+	color: var(--gpsgreen);
+	background-color: var(--gpsmarigold);
+}
+.dbselect {
+	border: none;
+	cursor: pointer;
+	font-family: "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 14px;
+	font-weight: bold;
+}
+.homeNav .dbselect {
+	background-color: var(--gpsgreen);
+	color: var(--gpsmarigolddark);
+}
+.plantType .dbselect {
+	background-color: yellow;
+	color: var(--gpsgreen);
+}
+.dbselect:active {
+	color: var(--gpssunshinedark);
+	border: none;
+}
+.dbselect:hover {
+	background-color: var(--gpsmarigold);
+}
+#plantDetails {
+	position: relative;
+	display: none;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2px;
+	border-style: solid;
+	border-width: 2px 10px 2px 10px;
+	border-color: var(--gpsmarigolddark);
+	border-radius: 50%;
+	background-color: var(--gpsgreentransp);
+	color: var(--gpsmarigold);
+	text-align: center;
+	list-style-type: none;
+}
+#plantDetails:hover {
+	background-color: var(--gpsmarigold);
+	color: var(--gpsblue);
+}
+#detailsIdx {
+	font-size: 1px;
+	color: var(--gpsgreen);
+	display: none;
+}
+.planter {
+	width: 80%;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+}
+.pretty-table {
+	color: var(--gpsalmostblack);
+}
+.pretty-table:hover {
+	background-color: var(--gpsosunshinedark);
+}
+.pretty-table:active {
+	background-color: var(--gpsgreenleaf);
+	color: var(--gpsgreen);
+	font-weight: bold;
+}
+.pretty-table:onclick {
+ background-color: var(--gpsgreenleaf);
+ color: var(--gpsgreen);
+ font-weight: bold;
+}
+th {
+	font-size: 8px;
+}
+td {
+}
+.dbEntries {
+	width: 80%;
+	height: 80%;
+	overflow: auto;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+}
+.heroImage {
+	top: 20%;
+	margin-top: 10px;
+	padding: .5em;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpssunshine);
+	float: right;
+	overflow: auto;
+}
+.heroText {
+	width: 20%;
+	border-radius: 50px 20px 50px 30px;
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	top: 20%;
+	background-color: var(--gpssunshine);
+	color: var(--gpsblue);
+	font-size: 2em;
+	font-style: italic;
+	left: 10%;
+	display: inline-block;
+	text-align: center;
+}
+.footerdiv {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	bottom: -3px;
+}
+.footerleft {
+	width: 20%;
+	display: inline-block;
+	text-align: left;
+}
+.footermiddle {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+}
+.footerright {
+	width: 15%;
+	display: inline-block;
+	text-align: right;
+}
+a:active {
+	font-style: italic;
+	font-weight: bold;
+}
+a:hover {
+	font-weight: bold;
+}
+
+/* smaller devices media query -- phones, etc */
+
+@media only screen and (max-width: 600px) {
+body {
+	background-color: var(--gpsgreenlight);
+}
+.button {
+	font-size: 18px;
+}
+.dbEntries {
+	width: 90%;
+	height: 30%;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+}
+.mainHeader h1 {
+	position: static;
+	top: 10%;
+	left: 25%;
+	margin-top: -0.3em;
+	font-size: 1em;
+}
+.mainHeader img {
+	width: 4em;
+	height: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainNav {
+	width: 60%;
+	margin-left: 30px;
+	background-color: var(--gpsbluetransp);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav ul {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+}
+.mainNav li {
+	width: 50%;
+	background-color: var(--gpsbluetransp);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+	text-align: center;
+}
+.mainNav li a:link {
+	background-color: var(--gpsblue);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+}
+.mainNav li a:visited {
+	background-color: var(--gpsblue);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsblue);
+	background-color: var(--gpsmarigolddark);
+}
+.mainNav li a:active {
+	color: var(--gpsblue);
+	background-color: var(--gpsmarigold);
+}
+.nav2 ul {
+	background-color: var(--gpsgreenlight);
+}
+.heroImage {
+	top: 20%;
+	margin: .8em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	padding: .3em;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpssunshine);
+	overflow: auto;
+}
+.heroText {
+	left: 10%;
+	width: 90%;
+	margin: .3em;
+	padding: .3em;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpssunshine);
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+}
+.planter {
+	width: 80%;
+	height: 40%;
+	overflow: auto;
+	margin: 0 auto;
+	background-color: var(--gpssunshine);
+	color: var(--gpsalmostblack);
+}
+.footerleft {
+	width: 20%;
+	display: inline-block;
+	text-align: left;
+}
+.footermiddle {
+	width: 60%;
+	display: inline-block;
+	text-align: center;
+}
+.footermiddle img {
+	display: none;
+}
+.footerright {
+	width: 15%;
+	left: 85%;
+	display: inline-block;
+	text-align: right;
+}
+}
+
+/* tablets and large phones  */
+@media (min-width: 600px) {
+body {
+	background-color: var(--gpsmarigold);
+}
+.mainHeader h1 {
+	position: static;
+	top: 10%;
+	left: 25%;
+	margin-top: -0.3em;
+	font-size: 2em;
+}
+.mainHeader img {
+	width: 9em;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainNav {
+	width: 70%;
+	margin-left: 20%;
+	background-color: var(--gpsbluetransp);
+	color: var(--gpsmarigolddark);
+	font-size: 18px;
+}
+.mainNav ul {
+	width: 100%;
+	margin: 0;
+	display: block;
+	background-color: var(--gpsbluetransp);
+	text-align: center;
+	text-decoration: none;
+}
+.mainNav li {
+	width: 18%;
+	border-bottom-style: none;
+	display: inline-block;
+	background-color: var(--gpsbluetransp);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+	text-align: center;
+}
+.mainNav li a:link {
+	background-color: var(--gpsblue);
+	color: var(--gpsmarigolddark);
+	text-decoration: none;
+}
+.mainNav li a:visited {
+	background-color: var(--gpsblue);
+	color: var(--gpsmarigold);
+}
+.mainNav li a:hover {
+	color: var(--gpsblue);
+	background-color: var(--gpsmarigolddark);
+}
+.mainNav li a:active {
+	color: var(--gpsblue);
+	background-color: var(--gpsmarigold);
+}
+.button {
+	font-size: 18px;
+}
+.nav2 ul {
+	background-color: var(--gpsmarigold);
+}
+.homeNav li {
+	display: inline-block;
+}
+.heroImage {
+	top: 20%;
+	margin: .8em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+	padding: .3em;
+	background-color: var(--gpsalmostblack);
+	color: var(--gpssunshine);
+	overflow: auto;
+}
+.heroText {
+	top: 20%;
+	width: 20%;
+	border-radius: 50px 20px 50px 30px;
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	background-color: var(--gpssunshine);
+	color: var(--gpsblue);
+	font-size: 1em;
+	font-style: italic;
+	left: 10%;
+	display: inline-block;
+	text-align: center;
+}
+.main sectionh2 {
+	font-size: 2.5em;
+	text-align: center;
+}
+.main section img {
+	float: left;
+}
+.main section {
+	clear: both;
+}
+.main section img {
+	margin-left: 5px;
+}
+.footermiddle img {
+	display: none;
+}
+}
+
+/*  landscape mode */
+
+@media screen and (orientation:landscape) and (min-width:768px) {
+body {
+	background-color: var(--gpsgreen);
+}
+.mainHeader h1 {
+	position: relative;
+	left: 10%;
+	margin-top: -1em;
+	font-size: 2em;
+	top: -1em;
+	display: inline;
+}
+.mainHeader img {
+	width: 9em;
+	height: auto;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainNav {
+	font-size: 20px;
+}
+.nav2 ul {
+	background-color: var(--gpsgreen);
+}
+.heroText {
+	width: 20%;
+	border-radius: 50px 20px 50px 30px;
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	top: 20%;
+	background-color: var(--gpssunshine);
+	color: var(--gpsblue);
+	font-size: 1.5em;
+	font-style: italic;
+	left: 10%;
+	display: inline-block;
+	text-align: center;
+}
+.footermiddle img {
+	display: none;
+}
+}
+
+/* laptops and desktops */
+
+@media screen and (min-width:992px) {
+body {
+	background-color: var(--gpsgreen);
+}
+.mainHeader h1 {
+	position: relative;
+	left: 10%;
+	margin-top: -1em;
+	font-size: 2.5em;
+	top: -1em;
+	display: inline;
+}
+.mainHeader img {
+	width: 9em;
+	height: auto;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainNav {
+	font-size: 24px;
+}
+.heroText {
+	width: 20%;
+	border-radius: 50px 20px 50px 30px;
+	padding: .5em;
+	margin-right: .5em;
+	float: left;
+	top: 20%;
+	background-color: var(--gpssunshine);
+	color: var(--gpsblue);
+	font-size: 2em;
+	font-style: italic;
+	left: 10%;
+	display: inline-block;
+	text-align: center;
+}
+.footermiddle img {
+	display: inline-block;
+}
+}
+
+/* extra large monitors */
+
+@media screen and (min-width:1200px) {
+body {
+}
+.mainHeader h1 {
+	position: relative;
+	left: 10%;
+	margin-top: -1em;
+	font-size: 2em;
+	top: -1em;
+	display: inline;
+}
+.mainHeader img {
+	width: 9em;
+	height: auto;
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+}
+}

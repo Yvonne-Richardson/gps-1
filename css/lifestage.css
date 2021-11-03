@@ -1,0 +1,101 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	padding: 0;
+	background-color: var(--gpsmarigolddark);
+	color: var(--gpsalmostblack);
+}
+.dbNames {
+	width: 90%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+.compPair {
+	width: 90%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 5px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+.dbCompP {
+	top: -10px;
+	width: 45%;
+	padding: 5px;
+	float: left;
+	display: inline-block;
+}
+.dbCompP h4 {
+	top: 5%;
+}
+.dbCompP img {
+	min-width: 50%;
+	max-width: 80%;
+}
+.footerdiv {
+	color: var(--gpsalmostblack);
+}
+
+/* smaller devices media query -- phones, etc */
+@media only screen and (max-width: 600px) {
+body {
+}
+.mainNav {
+	font-size: 18px;
+}
+.dbCompP {
+	top: -10px;
+	width: 80%;
+	padding: 5px;
+	float: left;
+	display: inline-block;
+}
+}
+
+/* tablets and large phones  */
+@media (min-width: 600px) {
+body {
+}
+.mainNav {
+	font-size: 14px;
+}
+}
+
+/*  landscape mode */
+@media screen and (orientation:landscape) and (min-width:768px) {
+body {
+}
+.mainNav {
+	font-size: 18px;
+}
+}
+
+/* laptops and desktops */
+@media screen and (min-width:992px) {
+.compPair {
+	width: 40%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+.mainNav {
+	font-size: 24px;
+}
+}
+
+/* extra large monitors */
+@media screen and (min-width:1200px) {
+.compPair {
+	width: 20%;
+	margin: 5px;
+	border: 10px solid var(--gpsmarigold);
+	padding: 10px;
+	background-color: var(--gpssunshine);
+	display: inline-block;
+}
+}

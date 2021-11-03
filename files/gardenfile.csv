@@ -1,0 +1,46 @@
+PLANTNUM,PLANT ,PERENNIAL,EFT,Indoors?,Germinate - Min,Germinate - Max,Transplant Outdoors,Companions,Opponents,# Plant Together,Diameter ,Deep,Harvest - Min,Harvest - Max,Comments,SCIENTIFIC,Pollination
+33,onions (leeks),B,E,,,,,celery-lettuce-spinach-strawberries,,,4,1,,,,Allium ampeloprasum,hubba hubba
+45,onions (normal),B,E,,,,,celery-lettuce-spinach-strawberries,,,4,1,,,,Allium cepa,hubba hubba
+19,garlic,P,E,,,,,tomatoes (beefsteak-cherry),,,6,,,,,Allium sativum,hubba hubba
+17,celery,,E,,,,,beans (green-fava)-onions (leeks),,,6,,,,,Apium graveolens,hubba hubba
+20,asparagus,P,E,,,,,tomatoes (beefsteak-cherry)-lettuce,,10,12,,365,365,,Asparagus officinalis,hubba hubba
+26,beets,,E,,,,,carrots-zucchini-cabbage (red-green)-onions (leeks),,,4,,,,,Beta Vulgaris crassa group,hubba hubba
+27,cabbage (red-green),B,E,,,,,,,,12,1,,,,Brassica oleracea capitata ,hubba hubba
+21,broccoli,,E,,,,,onions (leeks),cabbage (red-green),,18,1,,,,Brassica oleracea italica ,hubba hubba
+31,turnips,,E,,,,,peas,,,2,,,,,Brassica rapus rapifera ,hubba hubba
+18,peppers,P,E,,,,,asparagus-beets-spinach-onions (leeks)-tomatoes (beefsteak-cherry)-zucchini,,,12,,,,,Capsicum annum,hubba hubba
+16,cucumbers,,E,,,,,beans (green-fava-pole)-carrots-corn-lettuce-peas-radishes-sunflowers-onions (leeks),potatoes,,18,,,,,Cucumis sativus,hubba hubba
+3,squash,,E,,10,14,,corn-onions (leeks)-radishes-zucchini,potatoes,2,36,,90,90,,Cucurbita moschata,hubba hubba
+14,carrots,B,E,,,,,peas-onions (leeks)-radishes (mix)-tomatoes (beefsteak-cherry),,4,1,1,60,90,plant new every other year,Daucus carota,hubba hubba
+15,lettuce,,E,,,,,beans (green-fava)-beets-carrots-corn-peas-peppers-potatoes-radishes-spinach-sunflowers-tomatoes (beefsteak-cherry),broccoli,,4,1,,,,Latuca sativa,hubba hubba
+32,beans (green-fava-pole),,E,,10,14,,beets-broccoli-cabbage (red-green)-carrots-corn-peas-potatoes-squash-strawberries-cucumbers-tomatoes (beefsteak-cherry),sunflowers-onions (leeks)-peppers-garlic,,6,1,,,,Phaseolus vulgaris,hubba hubba
+28,peas,,E,,,,,carrots-corn-potatoes,garlic-onions (leeks),,2,1,,,,Pisum sativum,hubba hubba
+4,radishes,,E,,,,,beans (green-fava)-beets-peas-spinach-onions (leeks)-carrots(mix),beans (green-fava),,1,1,,,,Raphanus sativus,hubba hubba
+12,tomatoes (beefsteak-cherry),P,E,,,,,asparagus-celery-onions (leeks)-peppers-radishes-spinach-zucchini,corn-broccoli-potatoes-cabbage (red-green),,18,,,,,Solanum lycopersicum,hubba hubba
+29,potatoes,P,E,,,,,corn-onions (leeks)-peas,garlic,,12,,,,,Solanum tuberosum,hubba hubba
+30,spinach,,E,,,,,celery-zucchini-peppers-strawberries-onions (leeks),,,1,1,,,,Spinacia oleracea,hubba hubba
+1,corn,,E,,10,14,,beans (green-fava)-potatoes,tomatoes (beefsteak-cherry),3,4,,,,,Zea Mays,hubba hubba
+35,Apple,P,T,,,,,,,,,,,,,Pyrus malus,hubba hubba
+40,Banana,P,T,,,,,,,,,,,,,Musa paradisicum,hubba hubba
+2,beans (bush),,E,,,,,spinach-cucumber-corn-and potato.,cauliflower-broccoli-kale-cress-mustard-garlic-chives and leeks.  ,,2,1,,,,Phaseolus vulgaris,hubba hubba
+34,Blackberries,P,E,,,,,,,,,,,,,Rubus fruticosus,hubba hubba
+38,Cherry,P,T,,,,,,,,,,,,,Prunus avium,hubba hubba
+23,collard,,E,,,,,Beets-Bush Beans-Celery-Chamomile-Cucumber-Dill-Garlic-Geranium-Hyssop-Marigolds-Mint-Nasturtiums-Onions-Potatoes-Rosemary-Rue-Sage-Tansy-Thyme.,Grapes-Mexican marigolds-Pole Beans-Rue-Strawberries-Tomato,,6,1,,,,Brassica oleracea acephala ,hubba hubba
+24,kale,,E,,,,,Artichokes Beets Celery Cucumber Lettuce Onion Peas Potatoes Radishes Spinach Kale also enjoys the company of many herbs such as: Garlic Basil Dill Chamomile Mint Rosemary Sage Thyme,tomato strawberry,,12,1,,,,Brassica oleracea acephala ,hubba hubba
+6,Lavender,,F,,10,14,,broccoli-cabbage (red-green),,,24,,,,,Lavandula,hubba hubba
+43,Lavender,,F,,10,14,,Beets-Bush Beans-Celery-Chamomile-Cucumber-Dill-Garlic-Geranium-Hyssop-Marigolds-Mint-Nasturtiums-Onions-Potatoes-Rosemary-Rue-Sage-Tansy-Thyme.,Grapes-Mexican marigolds-Pole Beans-Rue-Strawberries-Tomato,,,,,,,Lavandula,hubba hubba
+7,Marigolds,,F,,5,10,,corn,,,1,,,,,Tagetes ,hubba hubba
+8,Monarda (bee balm),,F,,10,40,,tomatoes (beefsteak-cherry)-squash,,,18,,365,365,,Monarda didyma,hubba hubba
+44,Monarda (bee balm),,F,,,,,Artichokes Beets Celery Cucumber Lettuce Onion Peas Potatoes Radishes Spinach Kale also enjoys the company of many herbs such as: Garlic Basil Dill Chamomile Mint Rosemary Sage Thyme,tomato strawberry,,,,,,,Monarda didyma,hubba hubba
+39,Orange,P,T,,,,,,,,,,,,,Citrus aurantium,hubba hubba
+36,Pear,P,T,,,,,,,,,,,,,Pyrus communis,hubba hubba
+9,Petunia,,F,,3,4,,corn-beans (green-fava-pole)-tomatoes (beefsteak-cherry)-broccoli-peppers-grapes-cabbage (red-green),,,12,,,,,Petunia integrifolia,hubba hubba
+42,Petunia,,F,,,,,celery-cucumbers-lettuce-onions (leeks)-potatoes-spinach,tomatoes (beefsteak-cherry)-grapes-marigolds-strawberries-beans (green-fava-pole),,,,,,,Petunia atkinsiana,hubba hubba
+37,Plum,P,T,,,,,,,,,,,,,Prunus domestica,hubba hubba
+41,Primrose,B,F,,,,,,,,,,,,,Primula vulgaris,hubba hubba
+5,pumpkins,,E,,7,10,,corn-radishes,potatoes,5,36,,100,150,,Cucurbita maxima,hubba hubba
+22,Raspberries,P,E,,,,,,,,,,,,,Rubus idaeobatus,hubba hubba
+10,Rosemary,,E,,,,,beans (green-fava-pole)-carrots-cabbage (red-green),,,18,,,,,Rosmarinus officinalis,hubba hubba
+25,strawberries,,E,,,,,lettuce,,,14,,,,,Fragaria ananassa,hubba hubba
+11,sunflowers,,F,,,,,corn,potatoes-beans (green-fava-pole),,6,,,,,Helianthus,hubba hubba
+13,zucchini,,E,,7,14,,corn-lettuce,potatoes,4,28,,460,460,,Cucurbita pepo,hubba hubba
