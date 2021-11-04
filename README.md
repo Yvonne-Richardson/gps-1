@@ -12,13 +12,13 @@ All of the .csv files contain the same type of information. It was easier to spl
 
 Consequently, the six files are identical, with the exception of the following values.
 Annual plants must be re-purchased annually, whereas Perennials come back every year.  Biennials live for two - three years before requiring replacement.
-o Annuals    - Perennial = "A"
-o Biennials  - Perennial = "B"
-o Perennials - Perennial = "P"
+- Annuals    - Perennial = "A"
+- Biennials  - Perennial = "B"
+- Perennials - Perennial = "P"
 
 The initial classification was pretty simple.  For the most part, everybody knows what a tree is.  Likewise, if a plant is considered consumable by humans, it is edible; otherwise, the default class is "flower".
-o Edibles - EFT ="E"
-o Flowers - EFT ="F"
-o Trees   - EFT ="T"
+- Edibles - EFT ="E"
+- Flowers - EFT ="F"
+- Trees   - EFT ="T"
 
 The first column in the spreadsheet acts as an index to assist in displaying content across multiple tables.
