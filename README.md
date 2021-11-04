@@ -1,5 +1,5 @@
 # Gardeners Planting System 1.0
- 
+
 This is the first edition of the Gardener's Planting System. It was written in about 2018, if not earlier, and represents stable, flat file development for really simple Web pages.
 
 After the application is considered robust, for the platform on which it was designed, all that remains is to add data to the files as the opportunity presents itself.
